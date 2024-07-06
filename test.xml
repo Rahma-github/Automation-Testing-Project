@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="Automation Test">
+        <classes>
+            <class name="Testing.TestBase"/>
+            <class name="Testing.Register"/>
+            <class name="Testing.Login"/>
+            <class name="Testing.SearchTest"/>
+            <class name="Testing.ContactUs"/>
+            <class name="Testing.test0"/>
+            <class name="Testing.AddToCart"/>
+
+            <!-- Add more test classes here if needed -->
+        </classes>
+    </test>
+</suite>
